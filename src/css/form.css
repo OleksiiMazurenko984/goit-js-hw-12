@@ -1,0 +1,20 @@
+form {
+  width: 400px;
+  margin: 36px auto;
+}
+input {
+  outline: none;
+  height: 24px;
+  width: 240px;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  transition: border-color 250ms ease;
+}
+
+input:hover {
+  border-color: #000;
+}
+input:focus {
+  border-color: #4e75ff;
+}
